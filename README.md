@@ -34,7 +34,7 @@ pip install undetected-chromedriver
 
 ### **Option 1: Use Provided JSON (Recommended)**
 
-Download `cleaned_data.json` from this repo and skip to Step 3.
+Download `cleaned_data.json` from this repo and skip to Step 2.
 
 ### **Option 2: Extract URLs Yourself**
 
@@ -70,6 +70,8 @@ Download `cleaned_data.json` from this repo and skip to Step 3.
 
 4. Wait for all 380 pages to download (~2-3 minutes)
 5. Save as `cleaned_data.json`
+
+---
 
 **Step 2: Download Files (Python)**
 ```bash
@@ -202,11 +204,13 @@ pip install --upgrade undetected-chromedriver
 ```
 
 ### "Corrupt PDF" errors
+
 - Lower `--threads 1`
 - Increase `--delay 2.0`
 - Check network stability
 
 ### Resume after interruption
+
 - Script auto-resumes using `progress.json`
 - Delete `progress.json` to restart from scratch
 
@@ -215,6 +219,7 @@ pip install --upgrade undetected-chromedriver
 [!] Block 10/10
 [!] Refreshing cookie with Selenium...
 ```
+
 - Normal behavior - script auto-refreshes cookies
 - Increase `--delay` if blocks happen frequently
 - Reduce `--threads` to lower request rate
@@ -243,13 +248,6 @@ Pull requests welcome. For major changes, open an issue first.
 ## 📜 License
 
 MIT © 2025 - For educational and archival purposes
-
----
-
-## 🔗 References
-
-- [DOJ Jeffrey Epstein Files Portal](https://www.justice.gov/multimedia-search?keys=no%20images%20produced)
-- [Undetected ChromeDriver](https://github.com/ultrafunkamsterdam/undetected-chromedriver)
 
 ---
 
